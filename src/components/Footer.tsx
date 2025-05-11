@@ -19,7 +19,6 @@ const Footer = () => {
       links: [
         { text: 'Über uns', href: '#about' },
         { text: 'Referenzen', href: '#references' },
-        { text: 'Karriere', href: '#career' },
         { text: 'Kontakt', href: '#contact' },
       ],
     },
