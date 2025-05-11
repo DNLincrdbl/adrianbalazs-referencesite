@@ -23,7 +23,7 @@ const About = () => {
           <div className="relative">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/pictures/ref (18).JPG"
+                src="/pictures/ref (25).JPG"
                 alt="Professionelle Dachdeckerarbeiten"
                 fill
                 className="object-cover"
@@ -31,14 +31,10 @@ const About = () => {
             </div>
             {/* Stats overlay */}
             <div className="absolute -bottom-8 -right-8 bg-white rounded-2xl shadow-xl p-6">
-              <div className="grid grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 gap-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-red-900 mb-1">17+</div>
                   <div className="text-sm text-stone-600">Jahre Erfahrung</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-red-900 mb-1">500+</div>
-                  <div className="text-sm text-stone-600">Zufriedene Kunden</div>
                 </div>
               </div>
             </div>

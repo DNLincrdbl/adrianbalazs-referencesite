@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      isOpen || isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
               <span className={`text-2xl font-bold transition-colors duration-300 ${
-                isScrolled ? 'text-red-900' : 'text-white'
+                isOpen || isScrolled ? 'text-red-900' : 'text-white'
               }`}>
                 Adrian Balazs
               </span>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 key={link.href}
                 href={link.href}
                 className={`text-sm font-medium transition-colors duration-200 ${
-                  isScrolled 
+                  isOpen || isScrolled 
                     ? 'text-stone-700 hover:text-red-900' 
                     : 'text-white hover:text-red-100'
                 }`}
@@ -78,7 +78,7 @@ const Navbar = () => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className={`inline-flex items-center justify-center p-2 rounded-md transition-colors duration-200 ${
-                isScrolled 
+                isOpen || isScrolled 
                   ? 'text-stone-700 hover:text-red-900 hover:bg-stone-100' 
                   : 'text-white hover:text-red-100 hover:bg-white/10'
               }`}
