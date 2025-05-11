@@ -21,15 +21,6 @@ const Contact = () => {
 
         {/* Contact Card */}
         <div className="w-full max-w-3xl mx-auto flex flex-col items-center gap-8">
-          <div className="text-center mb-12">
-            <h2 className="text-5xl font-bold mb-8 text-red-900 tracking-tight">
-              Kontaktieren Sie uns
-            </h2>
-            <p className="text-xl text-stone-600 max-w-2xl mx-auto leading-relaxed">
-              Wir beraten Sie gerne persönlich und erstellen Ihnen ein unverbindliches Angebot.
-            </p>
-          </div>
-
           {/* Contact Card */}
           <div className="w-full bg-white/90 backdrop-blur-lg rounded-3xl shadow-2xl p-10 flex flex-col gap-8 items-center">
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
