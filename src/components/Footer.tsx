@@ -43,7 +43,7 @@ const Footer = () => {
               Adrian Balazs
             </h3>
             <p className="text-stone-400 mb-4">
-              Ihr zuverlässiger Partner für alle Arbeiten rund ums Dach. Qualität und Tradition seit 1990.
+              Ihr zuverlässiger Partner für alle Arbeiten rund ums Dach – mit 17 Jahren Erfahrung im Dachdeckerhandwerk.
             </p>
           </div>
 
